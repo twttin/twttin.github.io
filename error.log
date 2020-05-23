@@ -17,3 +17,22 @@ hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
+----------
+
+Fri May 22 2020 21:53:40 GMT-0700 (PDT)
+
+To https://github.com/twttin/twttin.github.io.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/twttin/twttin.github.io.git'
+
+
+----------
+
+Fri May 22 2020 21:53:40 GMT-0700 (PDT)
+
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
