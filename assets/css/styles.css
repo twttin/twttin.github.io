@@ -1,0 +1,136 @@
+main {
+  padding-top: 50px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  pointer-events: none;
+}
+
+.navbar {
+  /*max-width: 800px;*/
+  margin: auto;
+}
+
+.navbar {
+  background-color: #fefefe!important;
+  opacity: initial;
+}
+
+#one-line-intro {
+  margin-bottom: 30px;
+  font-family: 'Catamaran';
+}
+
+#Name {
+  font-family: 'Zilla Slab';
+  margin-bottom: 50px;
+}
+
+p {
+  font-family: 'Catamaran';
+  font-size: medium;
+  font-weight: 300;
+  padding-top: 20;
+  pointer-events: none;
+}
+
+#introduction {
+  max-width: 600px;
+  margin-bottom: 50px;
+  pointer-events: none;
+}
+
+.nav-link {
+  font-family: 'Catamaran';
+  font-weight: 100;
+}
+
+.btn.border.rounded-0.border-dark {
+  margin-right: 30PX;
+  /*font-size: 12px;*/
+  font-family: 'Catamaran';
+}
+
+.project-grid {
+  height: 300px;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.row {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.h2, h2 {
+  font-family: 'Catamaran';
+  /*font-style: italic;*/
+  font-weight: 600;
+}
+
+.project-title {
+  font-family: 'Zilla Slab';
+}
+
+.list-inline-item:not(:last-child)::after {
+  content: " |";
+  padding-left: 5px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+#footer {
+  font-family: 'Zilla Slab';
+  font-size: initial;
+  margin: auto;
+}
+
+#ziwang {
+  width: 240px;
+}
+
+#footer-container {
+  border-top: solid;
+  border-width: thin;
+  height: 60px;
+  margin: auto;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+#nbar {
+  border-bottom: solid;
+  border-width: thin;
+}
+
+#main {
+  padding-top: 200px;
+}
+
+#portfolio {
+  max-width: 1000px;
+}
+
+#particles-js {
+  height: 100%;
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
