@@ -1,10 +1,11 @@
 main {
   padding-top: 50px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 100px;
   pointer-events: none;
+  background-color: #ffffff;
 }
 
 .navbar {
@@ -13,8 +14,10 @@ main {
 }
 
 .navbar {
-  background-color: #fefefe!important;
+  background-color: #1e3e59!important;
   opacity: initial;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #one-line-intro {
@@ -104,21 +107,13 @@ a:hover {
 }
 
 #footer-container {
-  border-top: solid;
-  border-width: thin;
   height: 80px;
-  background-color: #ffffff;
   width: 100%;
   bottom: 0;
 }
 
 .shadow {
   /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
-}
-
-#nbar {
-  border-bottom: solid;
-  border-width: thin;
 }
 
 #main {
@@ -296,6 +291,7 @@ a, button {
 }
 
 body {
+  background-color: #1e3e59;
 }
 
 @media (min-width: 768px) {
@@ -346,5 +342,22 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.side_navigation {
+  background-color: #1e3e59;
+  width: 100px;
+  height: 100vh;
+}
+
+.logo {
+  width: inherit;
+}
+
+@media (max-width: 1350px) {
+  main {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 }
 
