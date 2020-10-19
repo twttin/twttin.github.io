@@ -19,7 +19,11 @@
   border-radius: 10px;
 }
 
+. {
+  background-color: #1e3e59;
+}
+
 .active {
-  background-color: #f2f2f2;
+  background-color: #1e3e59;
 }
 

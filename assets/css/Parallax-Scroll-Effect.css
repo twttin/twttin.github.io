@@ -13,7 +13,7 @@
   background-image: url(../../assets/img/profile_backup.jpg);
   background-position: right;
   background-size: contain;
-  /*display: table;*/
+  /*display: flex;*/
   background-attachment: fixed;
   /*align-items: end;*/
   /*margin-left: auto;*/
@@ -23,6 +23,16 @@
   height: 100vh;
   width: 100%;
   background-image: url(../../assets/img/back_alt.jpg);
+  background-position: right;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#diabetes-cover-photo {
+  height: 100vh;
+  width: calc(100% - 100px);
+  background-image: url(../../assets/img/Mockup.png);
   background-position: right;
   background-size: cover;
   display: table;
