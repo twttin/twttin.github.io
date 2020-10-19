@@ -259,14 +259,6 @@ a, button {
 .container.about {
 }
 
-.about {
-  /*float: initial;*/
-  background-color: #1E3E59;
-  /*height: auto;*/
-  /*overflow: visible;*/
-  /*width: 100%;*/
-}
-
 .self_introduction {
   width: 70%;
   padding-top: 50px;
@@ -282,7 +274,7 @@ body {
     position: fixed;
     height: 100%;
     width: 61.57%;
-    /*border-right: 5pt solid #f2f2f2;*/
+    border-right: 3pt solid #f2f2f2;
   }
 }
 
@@ -459,7 +451,8 @@ project-title {
   font-size: 14px;
 }
 
-.about-photo {
+.about-photo:hover {
+  opacity: 0%;
 }
 
 .featured-project {
@@ -489,11 +482,11 @@ project-title {
 
 .resume-link {
   width: 100px;
-  height: 36;
+  height: 36px;
   font-size: 14px;
   font-family: Catamaran, sans-serif;
   margin: 0px;
-  margin-right: 69px;
+  margin-right: 50px;
   background-color: #1E3E59;
   font-weight: 800;
   font-style: normal;
@@ -501,9 +494,13 @@ project-title {
   border-color: #4992bf;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 530px) {
   .resume-link {
-    margin-right: 250px;
+    margin-right: 200px;
   }
+}
+
+.home-footer:hover {
+  background-color: #000000;
 }
 
