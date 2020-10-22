@@ -71,7 +71,7 @@ p {
 }
 
 .project-title {
-  font-family: 'Lora';
+  font-family: 'Cardo';
 }
 
 .list-inline-item:not(:last-child)::after {
@@ -178,10 +178,6 @@ a:hover {
   pointer-events: none;
 }
 
-.text-center {
-  font-family: 'Zilla Slab';
-}
-
 .list-inline {
   font-family: 'Catamaran';
 }
@@ -223,11 +219,12 @@ a:hover {
 }
 
 .integrated-arrow {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .center-floating {
   margin: auto;
+  font-family: 'Zilla Slab';
 }
 
 .diagram-title {
@@ -342,7 +339,7 @@ body {
   }
 }
 
-.project_row {
+.project_row:not(:last-child) {
   border-bottom: 3px solid #f2f2f2;
 }
 
@@ -394,7 +391,7 @@ project-title {
 }
 
 .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  padding-right: -35;
+  padding-right: 0;
   padding-left: 0;
 }
 
@@ -415,20 +412,21 @@ project-title {
   color: #f2f2f2;
 }
 
-#prototyping:hover {
-  background-color: black;
+.dummy-row:hover {
+  background-color: #1e3e59;
 }
 
 .project-section-title {
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Zilla Slab';
   font-weight: 800;
   color: #ffa630;
   text-transform: uppercase;
+  font-style: italic;
 }
 
 .project-section-title:before {
-  content: "⇨";
+  content: "⇨ ";
 }
 
 .footer:after {
@@ -502,5 +500,30 @@ project-title {
 
 .home-footer:hover {
   background-color: #000000;
+}
+
+.project-content {
+  /*padding-top: 50px;*/
+  /*padding-bottom: 20px;*/
+  /*padding-left: 20px;*/
+  /*padding-right: 20px;*/
+  padding: 30px;
+}
+
+.dummy-row {
+  background-color: #1e3e59;
+}
+
+.project-feature {
+  color: #ffa630;
+  font-family: 'Zilla Slab';
+  font-weight: 100;
+}
+
+.mini-navi {
+  font-family: 'Catamaran';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
