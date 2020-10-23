@@ -620,3 +620,9 @@ project-title {
   }
 }
 
+@media (min-width: 993px) {
+  .fullpage-hide {
+    display: none;
+  }
+}
+
