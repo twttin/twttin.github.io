@@ -466,7 +466,7 @@ project-title {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   #profile1 {
     display: none;
   }
