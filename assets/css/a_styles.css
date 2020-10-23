@@ -71,7 +71,6 @@ p {
 }
 
 .project-title {
-  font-family: 'Cardo';
 }
 
 .list-inline-item:not(:last-child)::after {
@@ -81,6 +80,7 @@ p {
 
 a, a.active {
   color: inherit;
+  background-color: inherit;
 }
 
 a:hover {
@@ -357,6 +357,9 @@ project-title {
   margin-left: 50px;
   margin-right: 50px;
   color: white;
+  font-family: 'Cardo';
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .d-lg-flex.project-overview {
@@ -525,5 +528,95 @@ project-title {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 100;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-xl .navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-xl .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-xl {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+.col.horiz-nav:hover {
+  background-color: #4da1a9;
+}
+
+.horiz-nav {
+  color: #f2f2f2;
+  padding: 10px;
+  border-bottom: 3px solid #f2f2f2;
+  z-index: 999;
+}
+
+.horiz-nav:not(:last-child) {
+  border-right: 3px solid #f2f2f2;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+.mini-navi:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .side_navigation {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .content {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .cover-column {
+    border-bottom: 3pt solid #f2f2f2;
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-column {
+    border-right: 3pt solid #f2f2f2;
+  }
+}
+
+@media (min-width: 769px) {
+  .project_title {
+    border-right: 3px solid #f2f2f2;
+  }
+}
+
+@media (max-width: 991px) {
+  .project_title {
+    border-bottom: 3px solid #f2f2f2;
+  }
 }
 
