@@ -426,6 +426,7 @@ project-title {
   color: #ffa630;
   text-transform: uppercase;
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 .project-section-title:before {
@@ -506,10 +507,6 @@ project-title {
 }
 
 .project-content {
-  /*padding-top: 50px;*/
-  /*padding-bottom: 20px;*/
-  /*padding-left: 20px;*/
-  /*padding-right: 20px;*/
   padding: 30px;
 }
 
@@ -629,5 +626,9 @@ project-title {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.row-content:not(:last-child) {
+  padding-right: 30px;
 }
 
