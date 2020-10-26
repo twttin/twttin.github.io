@@ -379,8 +379,8 @@ project-title {
 }
 
 .row {
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .col {
@@ -502,7 +502,7 @@ project-title {
 }
 
 .home-footer:hover {
-  background-color: #000000;
+  background-color: #222222;
 }
 
 .project-content {
