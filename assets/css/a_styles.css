@@ -65,9 +65,9 @@ p {
 }
 
 .h2, h2 {
-  font-family: 'Catamaran';
-  /*font-style: italic;*/
+  font-family: 'Cardo';
   font-weight: 600;
+  color: #f2f2f2;
 }
 
 .project-title {
@@ -356,8 +356,6 @@ project-title {
 .project-title {
   margin-left: 50px;
   margin-right: 50px;
-  color: white;
-  font-family: 'Cardo';
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -514,12 +512,6 @@ project-title {
   background-color: #1e3e59;
 }
 
-.project-feature {
-  color: #ffa630;
-  font-family: 'Zilla Slab';
-  font-weight: 100;
-}
-
 .mini-navi {
   font-family: 'Catamaran';
   text-transform: uppercase;
@@ -628,7 +620,50 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-.row-content:not(:last-child) {
-  padding-right: 30px;
+.row-content {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  #miro-synthesis {
+    width: 1000px;
+    height: 500px;
+  }
+}
+
+#miro-synthesis {
+  width: 90%;
+  height: 400px;
+}
+
+h4, .h4 {
+  font-size: 1.40625rem;
+  font-family: 'Zilla Slab';
+  color: #ffa630;
+}
+
+h3, .h3 {
+  font-size: 1.640625rem;
+  color: #f2f2f2;
+  font-family: 'Cardo';
+}
+
+.quote:before {
+  content: "＂";
+}
+
+.quote:after {
+  content: "＂";
+}
+
+.quote {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-style: italic;
+}
+
+.sl-icon {
+  width: 50px;
 }
 
