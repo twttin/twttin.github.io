@@ -70,9 +70,6 @@ p {
   color: #f2f2f2;
 }
 
-.project-title {
-}
-
 .list-inline-item:not(:last-child)::after {
   content: " |";
   padding-left: 5px;
