@@ -627,14 +627,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
   #miro-synthesis {
-    width: 1000px;
-    height: 500px;
+    width: 324px;
+    height: 576px;
   }
 }
 
 #miro-synthesis {
-  width: 90%;
-  height: 400px;
+  width: 80%;
+  /*height: 400px;*/
 }
 
 h4, .h4 {
@@ -658,7 +658,9 @@ h3, .h3 {
 }
 
 .quote {
+  padding-top: 50px;
   padding-left: 50px;
+  padding-bottom: 50px;
   padding-right: 50px;
   font-style: italic;
 }
