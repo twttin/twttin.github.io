@@ -647,11 +647,7 @@ h3, .h3 {
 }
 
 .quote:before {
-  content: "＂";
-}
-
-.quote:after {
-  content: "＂";
+  content: "🗣: ";
 }
 
 .quote {
@@ -659,7 +655,6 @@ h3, .h3 {
   padding-left: 50px;
   padding-bottom: 50px;
   padding-right: 50px;
-  font-style: italic;
 }
 
 .sl-icon {
