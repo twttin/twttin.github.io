@@ -647,7 +647,7 @@ h3, .h3 {
 }
 
 .quote:before {
-  content: "🗣: ";
+  content: "🗣 ";
 }
 
 .quote {
@@ -659,5 +659,13 @@ h3, .h3 {
 
 .sl-icon {
   width: 50px;
+}
+
+.framework_theme {
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
 }
 
