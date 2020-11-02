@@ -497,7 +497,7 @@ project-title {
   }
 }
 
-.home-footer:hover {
+.hover_color:hover {
   background-color: #222222;
 }
 
@@ -624,14 +624,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
   #miro-synthesis {
-    width: 324px;
-    height: 576px;
+    /*width: 676px;*/
+    height: 500px;
   }
 }
 
 #miro-synthesis {
-  width: 80%;
-  /*height: 400px;*/
+  width: 100%;
 }
 
 h4, .h4 {
@@ -667,5 +666,15 @@ h3, .h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: 600;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.research_questions:before {
+  content: "❔ ";
+}
+
+.about_title {
+  height: 200px;
 }
 
