@@ -29,7 +29,7 @@ main {
 }
 
 p {
-  font-family: 'Catamaran';
+  font-family: 'jost';
   font-size: large;
   font-weight: 400;
   padding-top: 20;
@@ -62,12 +62,6 @@ p {
 
 .library_row {
   border-top: 1px solid;
-}
-
-.h2, h2 {
-  font-family: 'Cardo';
-  font-weight: 600;
-  color: #f2f2f2;
 }
 
 .list-inline-item:not(:last-child)::after {
@@ -340,12 +334,6 @@ body {
   border-bottom: 3px solid #f2f2f2;
 }
 
-h1, .h1 {
-}
-
-h1, .h1 {
-}
-
 project-title {
   text-align: center;
 }
@@ -481,7 +469,7 @@ project-title {
   width: 100px;
   height: 36px;
   font-size: 14px;
-  font-family: Catamaran, sans-serif;
+  font-family: 'Jost';
   margin: 0px;
   margin-right: 50px;
   background-color: #1E3E59;
@@ -510,7 +498,7 @@ project-title {
 }
 
 .mini-navi {
-  font-family: 'Catamaran';
+  font-family: 'Jost';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 100;
@@ -612,9 +600,13 @@ project-title {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+h1, h2, h3, h5, h6 {
   margin-bottom: 0;
+  color: #f2f2f2;
+}
+
+h2, h3, h5, h6 {
+  font-family: 'Jost';
 }
 
 .row-content {
@@ -635,15 +627,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4, .h4 {
-  font-size: 1.40625rem;
   font-family: 'Zilla Slab';
   color: #ffa630;
+  font-size: initial;
+  margin-bottom: 0;
 }
 
 h3, .h3 {
   font-size: 1.640625rem;
   color: #f2f2f2;
-  font-family: 'Cardo';
+  font-family: 'Jost';
 }
 
 .quote:before {
