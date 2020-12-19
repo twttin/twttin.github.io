@@ -248,9 +248,8 @@ a, button {
 }
 
 .self_introduction {
-  width: 70%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  width: 80%;
+  padding: 30px;
 }
 
 body {
